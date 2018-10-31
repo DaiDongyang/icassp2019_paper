@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dai.aux
+The style file: IEEEbib.bst
+Database file #1: strings2.bib
+Database file #2: refs2.bib
+Warning--empty journal in lee2015high
+You've used 19 entries,
+            1838 wiz_defined-function locations,
+            564 strings with 7101 characters,
+and the built_in function-call counts, 5661 in all, are:
+= -- 509
+> -- 275
+< -- 9
++ -- 98
+- -- 79
+* -- 416
+:= -- 842
+add.period$ -- 23
+call.type$ -- 19
+change.case$ -- 19
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 266
+empty$ -- 515
+format.name$ -- 79
+if$ -- 1315
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 19
+newline$ -- 98
+num.names$ -- 19
+pop$ -- 69
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 167
+stack$ -- 0
+substring$ -- 382
+swap$ -- 113
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 51
+width$ -- 21
+write$ -- 208
+(There was 1 warning)
