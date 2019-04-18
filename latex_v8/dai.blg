@@ -1,0 +1,79 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dai.aux
+The style file: IEEEbib.bst
+Database file #1: strings3.bib
+You're missing a field name---line 51 of file strings3.bib
+ :  
+ :  %year={2017}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 64 of file strings3.bib
+ :  
+ :  %year={2018}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Database file #2: refs3.bib
+You're missing a field name---line 21 of file refs3.bib
+ :  
+ :  %year={2016},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 29 of file refs3.bib
+ :  
+ :  %year={2009},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 37 of file refs3.bib
+ :  
+ :  %year={2016},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in lee2015high
+Warning--empty year in trigeorgis2016adieu
+Warning--empty year in satt2017efficient
+Warning--empty year in mower2009interpreting
+Warning--empty year in chao2016long
+Warning--empty year in huang2018speech
+You've used 19 entries,
+            1838 wiz_defined-function locations,
+            562 strings with 7092 characters,
+and the built_in function-call counts, 5624 in all, are:
+= -- 489
+> -- 275
+< -- 9
++ -- 98
+- -- 79
+* -- 423
+:= -- 828
+add.period$ -- 20
+call.type$ -- 19
+change.case$ -- 19
+chr.to.int$ -- 0
+cite$ -- 25
+duplicate$ -- 266
+empty$ -- 515
+format.name$ -- 79
+if$ -- 1295
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 19
+newline$ -- 98
+num.names$ -- 19
+pop$ -- 74
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 173
+stack$ -- 0
+substring$ -- 382
+swap$ -- 113
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 6
+while$ -- 51
+width$ -- 21
+write$ -- 200
+(There were 5 error messages)

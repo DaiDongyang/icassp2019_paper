@@ -1,0 +1,123 @@
+\begin{thebibliography}{10}
+
+\bibitem{el2011survey}
+M.~El~Ayadi, M.~S. Kamel, and F.~Karray,
+\newblock ``Survey on speech emotion recognition: Features, classification
+  schemes, and databases,''
+\newblock {\em Pattern Recognition}, vol. 44, no. 3, pp. 572--587, 2011.
+
+\bibitem{bengio2013representation}
+Y.~Bengio, A.~Courville, and P.~Vincent,
+\newblock ``Representation learning: A review and new perspectives,''
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  vol. 35, no. 8, pp. 1798--1828, 2013.
+
+\bibitem{lecun2015deep}
+Y.~LeCun, Y.~Bengio, and G.~Hinton,
+\newblock ``Deep learning,''
+\newblock {\em nature}, vol. 521, no. 7553, pp. 436, 2015.
+
+\bibitem{han2014speech}
+K.~Han, D.~Yu, and I.~Tashev,
+\newblock ``Speech emotion recognition using deep neural network and extreme
+  learning machine,''
+\newblock in {\em Fifteenth annual conference of the international speech
+  communication association}, 2014.
+
+\bibitem{lee2015high}
+J.~Lee and I.~Tashev,
+\newblock ``High-level feature representation using recurrent neural network
+  for speech emotion recognition,''
+\newblock 2015.
+
+\bibitem{trigeorgis2016adieu}
+G.~Trigeorgis, F.~Ringeval, R.~Brueckner, E.~Marchi, M.~A. Nicolaou,
+  B.~Schuller, and S.~Zafeiriou,
+\newblock ``Adieu features? end-to-end speech emotion recognition using a deep
+  convolutional recurrent network,''
+\newblock in {\em 2016 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)}, pp. 5200--5204.
+
+\bibitem{satt2017efficient}
+A.~Satt, S.~Rozenberg, and R.~Hoory,
+\newblock ``Efficient emotion recognition from speech using deep learning on
+  spectrograms,''
+\newblock {\em Proc. Interspeech 2017}, pp. 1089--1093.
+
+\bibitem{mower2009interpreting}
+E.~Mower, A.~Metallinou, C.~Lee, A.~Kazemzadeh, C.~Busso, S.~Lee, and
+  S.~Narayanan,
+\newblock ``Interpreting ambiguous emotional expressions,''
+\newblock in {\em Affective Computing and Intelligent Interaction and
+  Workshops, 2009. ACII 2009. 3rd International Conference on}, pp. 1--8.
+
+\bibitem{chao2016long}
+L.~Chao, J.~Tao, M.~Yang, Y.~Li, and Z.~Wen,
+\newblock ``Long short term memory recurrent neural network based encoding
+  method for emotion recognition in video,''
+\newblock in {\em 2016 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)}, pp. 2752--2756.
+
+\bibitem{lian2018pairwise}
+Z.~Lian, Y.~Li, J.~Tao, and J.~Huang,
+\newblock ``A pairwise discriminative task for speech emotion recognition,''
+\newblock {\em arXiv preprint arXiv:1801.01237}, 2018.
+
+\bibitem{huang2018speech}
+J.~Huang, Y.~Li, J.~Tao, and Z.~Lian,
+\newblock ``Speech emotion recognition from variable-length inputs with triplet
+  loss function,''
+\newblock {\em Proc. Interspeech 2018}, pp. 3673--3677.
+
+\bibitem{schroff2015facenet}
+F.~Schroff, D.~Kalenichenko, and J.~Philbin,
+\newblock ``Facenet: A unified embedding for face recognition and clustering,''
+\newblock in {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, 2015, pp. 815--823.
+
+\bibitem{wen2016discriminative}
+Y.~Wen, K.~Zhang, Z.~Li, and Y.~Qiao,
+\newblock ``A discriminative feature learning approach for deep face
+  recognition,''
+\newblock in {\em European Conference on Computer Vision}. Springer, 2016, pp.
+  499--515.
+
+\bibitem{simonyan2014very}
+K.~Simonyan and A.~Zisserman,
+\newblock ``Very deep convolutional networks for large-scale image
+  recognition,''
+\newblock {\em arXiv preprint arXiv:1409.1556}, 2014.
+
+\bibitem{He2015Deep}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun,
+\newblock ``Deep residual learning for image recognition,''
+\newblock in {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, 2016, pp. 770--778.
+
+\bibitem{Cho2014Learning}
+K.~Cho, B.~Van~Merrienboer, C.r Gulcehre, D.~Bahdanau, F.~Bougares, H.~Schwenk,
+  and Y.~Bengio,
+\newblock ``Learning phrase representations using rnn encoder-decoder for
+  statistical machine translation,''
+\newblock {\em Computer Science}, 2014.
+
+\bibitem{He2015Delving}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun,
+\newblock ``Delving deep into rectifiers: Surpassing human-level performance on
+  imagenet classification,''
+\newblock in {\em IEEE International Conference on Computer Vision}, 2015, pp.
+  1026--1034.
+
+\bibitem{busso2008iemocap}
+C.~Busso, M.~Bulut, C.~Lee, A.~Kazemzadeh, E.~Mower, S.~Kim, J.~N. Chang,
+  S.~Lee, and S.~S. Narayanan,
+\newblock ``Iemocap: Interactive emotional dyadic motion capture database,''
+\newblock {\em Language resources and evaluation}, vol. 42, no. 4, pp. 335,
+  2008.
+
+\bibitem{kingma2014adam}
+D.~P. Kingma and J.~Ba,
+\newblock ``Adam: A method for stochastic optimization,''
+\newblock {\em arXiv preprint arXiv:1412.6980}, 2014.
+
+\end{thebibliography}
