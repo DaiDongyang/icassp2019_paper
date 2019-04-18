@@ -1,72 +1,72 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.3.30)  16 FEB 2019 18:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.26)  18 APR 2019 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **dai.tex
 (./dai.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(d:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+(d:/texlive/2018/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 ) (./spconf.sty)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/03 v2.15a AMS math features
+(d:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+(d:/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+(d:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(d:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
+(d:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count87
-LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count88
-\leftroot@=\count89
-LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count90
-\DOTSCASE@=\count91
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count92
-\c@MaxMatrixCols=\count93
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
-\c@parentequation=\count94
-\dspbrk@lvl=\count95
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
 \tag@help=\toks15
-\row@=\count96
-\column@=\count97
-\maxfields@=\count98
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
 \andhelp@=\toks16
 \eqnshift@=\dimen106
 \alignsep@=\dimen107
@@ -78,45 +78,38 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks18
-LaTeX Info: Redefining \[ on input line 2735.
-LaTeX Info: Redefining \] on input line 2736.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(d:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+(d:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+(d:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+(d:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(d:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def
-File: xetex.def 2015/09/11 v4.06 LaTeX color/graphics driver for XeTeX (TeX Liv
-e/RRM/JK)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)))
+(d:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+(d:/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+(d:/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen114
 \captionmargin@=\dimen115
@@ -136,18 +129,18 @@ See the caption package documentation for explanation.
 Package caption Info: \@makecaption = \long macro:#1#2-> \vskip 10pt \setbox \@
 tempboxa \hbox {#1. #2} \ifdim \wd \@tempboxa >\hsize #1. #2\par \else \hbox to
 \hsize {\hfil \box \@tempboxa \hfil } \fi .
-\c@ContinuedFloat=\count99
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+\c@ContinuedFloat=\count100
+) (d:/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+(d:/texlive/2018/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen121
 \WF@size=\dimen122
-\c@WF@wrappedlines=\count100
+\c@WF@wrappedlines=\count101
 \WF@box=\box28
 \WF@everypar=\toks20
 Package: wrapfig 2003/01/31  v 3.6
@@ -168,9 +161,78 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
 LaTeX Font Info:    ... okay on input line 63.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 63.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(d:/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
+(d:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen123
+\scratchbox=\box29
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen124
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks22
+) (d:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(d:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(d:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(d:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(d:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -178,17 +240,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
 LaTeX Font Info:    Try loading font information for U+msa on input line 67.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+(d:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+(d:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 67.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
+(d:/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
@@ -208,39 +270,69 @@ Underfull \hbox (badness 1824) in paragraph at lines 74--76
  dis-crim-i-na-tive fea-tures,
  []
 
-[1
+[1{d:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]
-File: fig1.pdf Graphic file (type QTm)
- <use  "fig1.pdf" >
+<fig1.pdf, id=14, 949.5475pt x 315.1775pt>
+File: fig1.pdf Graphic file (type pdf)
+<use fig1.pdf>
+Package pdftex.def Info: fig1.pdf  used on input line 108.
+(pdftex.def)             Requested size: 241.84842pt x 80.2754pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 111.
-File: fig2.pdf Graphic file (type QTm)
- <use  "fig2.pdf" >
-File: fig3.pdf Graphic file (type QTm)
- <use  "fig3.pdf" > [2]
+<fig2.pdf, id=15, 597.23125pt x 487.8225pt>
+File: fig2.pdf Graphic file (type pdf)
+<use fig2.pdf>
+Package pdftex.def Info: fig2.pdf  used on input line 122.
+(pdftex.def)             Requested size: 142.26378pt x 116.20145pt.
+<fig3.pdf, id=16, 447.6725pt x 244.915pt>
+File: fig3.pdf Graphic file (type pdf)
+<use fig3.pdf>
+Package pdftex.def Info: fig3.pdf  used on input line 130.
+(pdftex.def)             Requested size: 119.50148pt x 65.37677pt.
+ [2 <./fig1.pdf> <./fig2.pdf> <./fig3.pdf>]
 Underfull \hbox (badness 1377) in paragraph at lines 216--217
 []\OT1/ptm/m/n/10 Our ex-per-i-ments were con-ducted on log scale Mel-
  []
 
-File: fig4_alpha.png Graphic file (type QTm)
-<use  "fig4_alpha.png" >
-File: fig4_lambda.png Graphic file (type QTm)
- <use  "fig4_lambda.png" >
-File: train_lambda0.png Graphic file (type QTm)
- <use  "train_lambda0.png" >
-File: train_lambda03.png Graphic file (type QTm)
+<fig4_alpha.png, id=96, 271.0125pt x 213.9192pt>
+File: fig4_alpha.png Graphic file (type png)
+<use fig4_alpha.png>
+Package pdftex.def Info: fig4_alpha.png  used on input line 230.
+(pdftex.def)             Requested size: 113.81206pt x 79.66785pt.
+<fig4_lambda.png, id=98, 271.0125pt x 214.6419pt>
+File: fig4_lambda.png Graphic file (type png)
+<use fig4_lambda.png>
+Package pdftex.def Info: fig4_lambda.png  used on input line 238.
+(pdftex.def)             Requested size: 113.81206pt x 79.66516pt.
+<train_lambda0.png, id=99, 381.5856pt x 258.0039pt>
+File: train_lambda0.png Graphic file (type png)
+<use train_lambda0.png>
+Package pdftex.def Info: train_lambda0.png  used on input line 252.
+(pdftex.def)             Requested size: 119.50148pt x 80.79924pt.
+<train_lambda03.png, id=100, 381.5856pt x 258.0039pt>
+File: train_lambda03.png Graphic file (type png)
+<use train_lambda03.png>
+Package pdftex.def Info: train_lambda03.png  used on input line 259.
+(pdftex.def)             Requested size: 119.50148pt x 80.79924pt.
+<test_lambda0.png, id=101, 381.5856pt x 258.0039pt>
+File: test_lambda0.png Graphic file (type png)
+<use test_lambda0.png>
+Package pdftex.def Info: test_lambda0.png  used on input line 266.
+(pdftex.def)             Requested size: 119.50148pt x 80.79924pt.
+<test_lambda03.png, id=102, 381.5856pt x 258.0039pt>
+File: test_lambda03.png Graphic file (type png)
+<use test_lambda03.png>
+Package pdftex.def Info: test_lambda03.png  used on input line 273.
+(pdftex.def)             Requested size: 119.50148pt x 80.79924pt.
+<fig6.png, id=103, 289.8027pt x 198.7425pt>
+File: fig6.png Graphic file (type png)
+<use fig6.png>
+Package pdftex.def Info: fig6.png  used on input line 287.
+(pdftex.def)             Requested size: 128.0374pt x 87.8048pt.
 
-<use  "train_lambda03.png" >
-File: test_lambda0.png Graphic file (type QTm)
- <use  "test_lambda0.png" >
-File: test_lambda03.png Graphic file (type QTm)
-
-<use  "test_lambda03.png" >
-File: fig6.png Graphic file (type QTm)
- <use  "fig6.png" >
 Overfull \hbox (17.4487pt too wide) in paragraph at lines 301--302
 [][] 
  []
@@ -248,15 +340,40 @@ Overfull \hbox (17.4487pt too wide) in paragraph at lines 301--302
 [3]
 Underfull \vbox (badness 2903) has occurred while \output is active []
 
- [4]
-(./dai.bbl) [5] (./dai.aux) ) 
+ [4 <./fig4_alpha.png> <./fig4_lambda.png> <./train_lambda0.png> <./train_lambd
+a03.png> <./test_lambda0.png> <./test_lambda03.png> <./fig6.png>] (./dai.bbl) [
+5]
+(./dai.aux) ) 
 Here is how much of TeX's memory you used:
- 2750 strings out of 493638
- 40432 string characters out of 6144792
- 114126 words of memory out of 5000000
- 6121 multiletter control sequences out of 15000+600000
- 16743 words of font info for 56 fonts, out of 8000000 for 9000
- 1328 hyphenation exceptions out of 8191
- 36i,11n,39p,1450b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 3446 strings out of 492649
+ 51437 string characters out of 6133384
+ 129805 words of memory out of 5000000
+ 7256 multiletter control sequences out of 15000+600000
+ 27744 words of font info for 66 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,11n,39p,1450b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/texlive/2018/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi9.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2018/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy9.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.
+pfb><d:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/20
+18/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><d:/texlive/2018/texmf-dist/fon
+ts/type1/urw/times/utmr8a.pfb><d:/texlive/2018/texmf-dist/fonts/type1/urw/times
+/utmri8a.pfb>
+Output written on dai.pdf (5 pages, 645643 bytes).
+PDF statistics:
+ 183 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on dai.pdf (5 pages).
