@@ -1,0 +1,63 @@
+
+Hello, everyone, glad to share our work on speech emotion recognition.
+
+Speech emotion recognition, SER for short , which Identifys the emotional state from speech, is essentional for naturally Human-computer interaction. 
+
+But however, emotions are naturally ambiguous, and how to extract features containing enough emotional information has always gain a lot of interests.
+
+In our work, we proposed a muli-task model by introducing center loss together with softmax cross-entropy loss for speech emotional recognition task.  Besides, our model accepts spectrograms as input directly, getting rid of feature engineering.
+
+Let's look at the architecture.
+The input of our model is a variable-length spectrogram, it can be STFT spectrogram or Mel-spectrogram. 
+The CNN-layers extract spatial information from the input spectrogram, the model detail is depicted as this figure.
+The following Bi-RNN, which is a bi-directional GRU, compresses the variable length of sequence, which is the output of CNN-layers, into a fixed-length vector, by concatenating last timestep's output of the forward RNN and backword RNN. The unit number of GRU is 128.
+The output of the first fully-connected layer, z is used to calculated center loss. and the output of the second fully-connected layer denotes the posterior class probabilitis, which is used to calculated softmax cross-entropy loss.
+
+
+The softmax cross-entropy loss is commonly used in multi-classification problems. because of class imbalance, we applied weighted softmax cross-entropy loss. The formula is here. the weight omega_j is in inverse proportion to the sample number of jth class in training set. W and b are FC2's parameters.
+
+
+The center loss aims to minimize the square distance of featrue z to its corresponding global center. the c_j is the jth global class ceter, updated every mini-batch accordign to local class ceter c_dot_j, as this formula. and local class center c_dot_j is the center of features in a mini-batch, calculated as this formula. Additional, hyperparameter alpha controls the update rate of global class ceter.
+
+
+Our model is a muli-task model, minimizing both center loss and softmax cross-entropy loss. So the joint loss is as this formula, hyperparameter lambda trades off the effect of center loss against softmax cross-entropy loss.
+
+
+We conducted experiments on IEMCOCAP dataset, considering only audio labeled by neutral, angry, happy, sad and excited, and we merged happy and excited together as happy. There are total 5,531 samples in our experiments. We divided the data into 5 subsets randomly, keeping the emotion distribution. 4 subsets for training, half of the last as development set, half as test set. 5 times cross-validtion is conducted to get the average result.
+
+
+Our model accepts log scale STFT spectrogram or Mel-spectrogram as input. To get spectrograms, Hamming window is applied, with window size of 40 milliseconds, window shift of 10 milliseconds. The sample rate of audio is 16kHZ, the DFT length is 1024, and the number of Mel bands is 128.
+
+
+We use two criteria to measure the SER performance. The unweighted accuracy and weighted accuracy. The unweighted accuracy, UA for short, is the mean value of the recall for all the classes. The weighted accuracy, WA for short, is calculated by dividing the correctly classified samples by the total number of samples.
+
+
+First of all, we conducted experiments to investage the effect of hyperparameter lambda and alpha on Mel-spectrogram input, the result is depicted in this figure. sub-figure (a) shows the relation between UA、WA with hyperparameter alpha when fixing lambda to 0.3. And sub-figure (b) shows the ralation betwwen SER performance with hyperparamater lambda when fixing alpha to 0.5. sub-figure (a) illustrated that ser performance are not sensitive to hyperparameter alpha. and sub-figure (b) denotes that with proper value of hyperparameter lambda, the SER performance can be significantly improved.
+
+
+Further more, we conducted experiments with or without center loss on Mel and STFT spectrograms input. All off the four experiments settings is shown as the table. Setting1 without center loss on Mel-spectrogram input, Setting2 with center loss on Mel-spectrogram input, Setting 3 without center loss on STFT spectrogram input, Setting 4 with center loss on STFT spectrogram input. This figure depicted the SER performance from setting1 to setting4. From this figure, we can see that after introducing center loss, the SER performance has been highly improved on both Mel-spectrogram input and STFT spectrogram input. These tables is the confusion matrix from setting1 to setting4, from these confusion tatrix, we can found that after introducing center loss, the accuracy of all the four class has been improved to defferent degrees.
+
+
+To illustrate the discrimanative power provided by center loss, we draw PCA embedding of feature z from model with center loss and without center loss respectively. Sub-figure (a) and sub-figure (c) shows the PCA embedding of features from model without center loss, sub-figure(a) denotes the features from training set, sub-figure(b) denotes the features from test set. Sub-figure (b) and sub-figure (d) shows PCA embedding of features from model using center loss, sub-figure (b) corresponds to the training set, and sub-figure (d) denotes features from the test set. From the figure, we found that after introducing center loss, features in the same calss category becomes more compact, together with softmax corss-entropy loss, which seperates features from defferent categories, the discriminative power can be enhanced, leading to SER perform improvement.
+
+
+
+From these experments, we can draw the following conclusions
+Introducing center loss with proper value of hyperparamter lambda could effectively improve the SER performance on bath STFT spectrogram and Mel-spectrogram input
+Mel-spectrogram input, reducing the dimension based on human hearing characteristics, over performs STFT spectrogram input
+The 2-D PCA embedding illustrates the discriminative power when using center loss, which enables the neural
+network to learn more effective features for SER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
